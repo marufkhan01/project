@@ -1,0 +1,20 @@
+class FrontDeskNG(object):
+
+        def __init__(self, guest):
+            self.guest = guest
+
+        def book_room(self):
+            guest = self.guest
+            next_id = get_next_id()
+            bookings_db[next_id] = {
+            'name': guest.name,
+            'place': guest.place,
+            'phone': guest.phone
+            }
+
+
+
+class Adapter(object):
+
+        def __init__(self, adaptee):
+            self.adaptee = adaptee

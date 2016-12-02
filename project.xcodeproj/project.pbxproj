@@ -25,6 +25,11 @@
 /* Begin PBXFileReference section */
 		CAF982EC1CBBB77000B9D8F9 /* project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = project; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF982EF1CBBB77000B9D8F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAF982F61CBBC02500B9D8F9 /* get_next_id */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = get_next_id; path = project/get_next_id; sourceTree = "<group>"; };
+		CAF982F71CBBC45100B9D8F9 /* book_room */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = book_room; sourceTree = "<group>"; };
+		CAF982F81CBBC9A800B9D8F9 /* Frontdesk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Frontdesk; sourceTree = "<group>"; };
+		CAF982F91CBE886B00B9D8F9 /* FrontDesk.__init__() */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FrontDesk.__init__()"; sourceTree = "<group>"; };
+		CAF982FA1CBE8F1A00B9D8F9 /* buildout.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = buildout.cfg; path = myve/mybuildout/buildout/buildout.cfg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +46,11 @@
 		CAF982E31CBBB76F00B9D8F9 = {
 			isa = PBXGroup;
 			children = (
+				CAF982F71CBBC45100B9D8F9 /* book_room */,
+				CAF982FA1CBE8F1A00B9D8F9 /* buildout.cfg */,
+				CAF982F81CBBC9A800B9D8F9 /* Frontdesk */,
+				CAF982F91CBE886B00B9D8F9 /* FrontDesk.__init__() */,
+				CAF982F61CBBC02500B9D8F9 /* get_next_id */,
 				CAF982EE1CBBB77000B9D8F9 /* project */,
 				CAF982ED1CBBB77000B9D8F9 /* Products */,
 			);
